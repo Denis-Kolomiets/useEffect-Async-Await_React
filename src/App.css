@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.posts_wrapper {
+  max-width: 1300px;
+  display: flex;
+  margin: 40px auto 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.post_block {
+  width: 400px;
+  background-color: lightsteelblue;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post_title {
+  font-size: 25px;
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  background-color: lightgreen;
+  border-radius: 20px;
+}
+
+.post_body {
+  font-size: 18px;
+  max-width: 300px;
+}
+
+small {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.loading {
+  position: relative;
+  top: 300px;
+}
